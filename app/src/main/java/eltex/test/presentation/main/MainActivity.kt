@@ -24,7 +24,6 @@ class MainActivity : AppCompatActivity(R.layout.main_activity) {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         viewModel.authorizationFlow.dropFirstIf { savedInstanceState != null }.onEach {
-            Log.d("test123", "onEach: $it")
             when (it) {
                 is MainViewModel.AuthorizationState.NotAuthorized -> {
                     supportFragmentManager.commit {
