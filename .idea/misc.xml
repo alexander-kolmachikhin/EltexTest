@@ -8,6 +8,7 @@
         <entry key="app/src/main/res/layout/authorization_fragment.xml" value="0.3859375" />
         <entry key="app/src/main/res/layout/main_activity.xml" value="0.3859375" />
         <entry key="app/src/main/res/layout/user_fragment.xml" value="0.3859375" />
+        <entry key="app/src/main/res/layout/user_permission_item.xml" value="0.38" />
       </map>
     </option>
   </component>

@@ -11,8 +11,8 @@ import java.net.UnknownHostException
 
 class AuthorizationViewModel(private val authorizationInteractor: AuthorizationInteractor) : ViewModel() {
 
-    val usernameStateFlow = MutableStateFlow("kolmachihin")
-    val passwordStateFlow = MutableStateFlow("kolmachihin")
+    val usernameStateFlow = MutableStateFlow("")
+    val passwordStateFlow = MutableStateFlow("")
     val authorizeResultStateFlow = MutableStateFlow<AuthorizationResult?>(null)
     val messageStateFlow = MutableStateFlow<Message?>(null)
 
